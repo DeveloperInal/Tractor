@@ -2,10 +2,10 @@ services:
   nextjs:
     build:
       context: ./nikite-deploy/
-      dockerfile: Dockerfile
+      dockerfile: nikite-deploy/Dockerfile.dev
     container_name: nextjs
     ports:
-      - "3000:3000"
+      - "172.26.148.182:3000:3000"
     environment:
       NODE_ENV: production
     networks:
@@ -15,7 +15,7 @@ services:
     image: nginx:latest
     container_name: nginx
     ports:
-      - "80:80" # Внешний порт для доступа
+      - "172.26.148.182:80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
     networks:
