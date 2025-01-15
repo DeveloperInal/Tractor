@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import {NextIntlClientProvider} from 'next-intl';
-import {routing} from '@/i18n/routing';
+import { NextIntlClientProvider } from "next-intl";
+import { routing } from "@/i18n/routing";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
-import {notFound} from "next/navigation";
+import { notFound } from "next/navigation";
+import {JSX, ReactNode} from "react";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -21,19 +22,19 @@ export const metadata: Metadata = {
     description: "Широкий выбор грузовой техники для любых задач",
 };
 
-export default async function RootLayout({
-                                       children,
-                                       params: {locale}
-                                   }: Readonly<{
-    children: React.ReactNode;
-    params: {locale: string};
-}>) {
+interface LayoutProps {
+    children: ReactNode;
+    params: Promise<{ locale: string }>;
+}
+
+// Изменяем `RootLayout` для корректной работы с `params`
+export default async function RootLayout({ children, params }: LayoutProps) {
+    const { locale } = await params;
+
     if (!routing.locales.includes(locale as any)) {
         notFound();
     }
 
-    // Providing all messages to the client
-    // side is the easiest way to get started
     let messages;
     try {
         messages = (await import(`../../../messages/${locale}.json`)).default;
@@ -46,7 +47,6 @@ export default async function RootLayout({
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-
         <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}
