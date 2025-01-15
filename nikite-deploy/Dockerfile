@@ -16,7 +16,7 @@ RUN yarn build
 
 FROM nginx:alpine
 
-COPY --from=builder ./next /usr/share/nginx/html
+COPY --from=builder ./.next/ /usr/share/nginx/html
 COPY --from=builder /nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 3000
