@@ -19,6 +19,9 @@ FROM nginx:alpine
 COPY --from=builder ./.next/ /usr/share/nginx/html
 COPY --from=builder /nginx.conf /etc/nginx/conf.d/default.conf
 
+ENV NODE_ENV production
+ENV PORT 3000
+
 EXPOSE 3000
 
 CMD ["nginx", "-g", "daemon off;"]
