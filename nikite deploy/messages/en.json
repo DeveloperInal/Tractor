@@ -1,0 +1,77 @@
+{
+  "MainPage": {
+    "navbar": {
+      "home": "Home",
+      "technique": "Equipment",
+      "benefits": "Benefits",
+      "partners": "Partners"
+    },
+    "hero": {
+      "subtitle": "Wide Range",
+      "title": "Reliable Trucks for Your Business",
+      "description": "We offer a wide range of trucks for any task, from freight transportation to construction works."
+    },
+    "modal": {
+      "title": {
+        "Komatsu PC 290 LC": "Universal excavator for Urban Construction and work",
+        "Hyundai 220 LC-95": "Powerful excavator-puller for medium and large construction work",
+        "Caterpillar 336": "Compact excavator for working in a confined space",
+        "DONGFENG": "Professional excavator for large-scale projects"
+      },
+      "mass": "Mass",
+      "time": "Time work",
+      "year": "Year",
+      "contact": "Contact"
+    },
+    "stats": {
+      "complete-project": "Complete Project",
+      "current-model": "Current Model",
+      "awards-won": "Awards Won",
+      "equipment-kits": "Equipment kits"
+    },
+    "tractor": {
+        "title": "Tractor",
+        "Hyundai 220 LC-95": "Powerful excavator-loader for medium and large construction works",
+        "Komatsu PC 290 LC": "Universal excavator for urban construction and works",
+        "Caterpillar 336": "Compact excavator for working in confined spaces",
+        "DONGFENG": "Professional excavator for large-scale projects"
+      },
+    "show-more": "Show More",
+    "wcu": {
+      "why-choose-us": "Why Choose Us",
+      "subtitle": "The Right Equipment",
+      "title": "Your Reliable Helper in the World of Technology",
+      "desc": "We specialize in equipment supply - this is our main and only area of activity. We do not spread our efforts to other directions."
+    },
+    "find-the-right-equipment": "Find the Right Equipment",
+    "order": "Order",
+    "stat": {
+      "1": "Completed Projects",
+      "2": "Equipment Kits",
+      "3": "Awards Won",
+      "4": "Available Models"
+    },
+    "reviews": {
+      "say": "What Our Customers Say",
+      "testimonials": "Customer Reviews",
+      "Aleksandr": "Excellent site, wide variety of specialized equipment! Everything is thought out to the details: convenient navigation, detailed model descriptions, and quick feedback from managers.",
+      "Vladislav": "Excellent service and fast delivery! The equipment exactly matches the description. We were satisfied with the cooperation and plan to order again.",
+      "Aleksey": "This is our first time working with the company. Always accurate, reliable, and no additional delays. The equipment works long and efficiently."
+    },
+    "trust-us": "Industry Leaders Trust Us",
+    "copyright": "All rights reserved.",
+    "read-more": "Read More",
+    "industry_leaders": "Industry Leaders Trust Us",
+    "phone": "Phone",
+    "construction": {
+      "site": "Construction Supplier",
+      "equipment": "Construction Equipment",
+      "works": "Construction Works"
+    },
+    "partner": "Partner",
+    "add": "Add"
+  },
+  "LanguageSwitcher": {
+    "flagAlt": "{language} flag"
+  }
+}

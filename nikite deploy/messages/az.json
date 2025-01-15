@@ -1,0 +1,77 @@
+{
+  "MainPage": {
+    "navbar": {
+      "home": "Ev",
+      "technique": "Texnika",
+      "benefits": "Faydaları",
+      "partners": "Tərəfdaşlar"
+    },
+    "hero": {
+      "subtitle": "Geniş çeşid",
+      "title": "İşiniz üçün etibarlı yük maşınları",
+      "description": "Malların daşınmasından tikinti işlərinə qədər hər hansı bir vəzifə üçün geniş çeşidli yük maşınları təklif edirik."
+    },
+    "modal": {
+      "title": {
+        "Komatsu PC 290 LC": "Şəhər tikintisi və işləri üçün universal ekskavator",
+        "Hyundai 220 LC-95": "Orta və böyük tikinti işləri üçün güclü ekskavator-çəkici",
+        "Caterpillar 336": "Məhdud məkanda işləmək üçün kompakt ekskavator",
+        "DONGFENG": "Böyük miqyaslı layihələr üçün peşəkar ekskavator"
+      },
+      "year": "İl:",
+      "mass": "Çəki:",
+      "time": "İş saatı:",
+      "contact": "Əlaqə"
+    },
+    "stats": {
+      "complete-project": "tamamlanmış layihə",
+      "current-model": "cari model",
+      "awards-won": "qazanılan mükafatlar",
+      "equipment-kits": "avadanlıq dəstləri"
+    },
+    "tractor": {
+      "title": "Traktor",
+      "Hyundai 220 LC-95": "Orta və böyük tikinti işləri üçün güclü ekskavator-çəkici",
+      "Komatsu PC 290 LC": "Şəhər tikintisi və işləri üçün universal ekskavator",
+      "Caterpillar 336": "Məhdud məkanda işləmək üçün kompakt ekskavator",
+      "DONGFENG": "Böyük miqyaslı layihələr üçün peşəkar ekskavator"
+    },
+    "show-more": "Daha çox göstər",
+    "wcu": {
+      "why-choose-us": "Niyə bizi seçməlisiniz",
+      "subtitle": "Düzgün avadanlıq",
+      "title": "Texnologiya dünyasında etibarlı köməkçiniz",
+      "desc": "Biz texnika təchizatında ixtisaslaşmışıq-bu, bizim əsas və yeganə fəaliyyət sahəmizdir. Səylərimizi başqa istiqamətlərə səpmirik."
+    },
+    "find-the-right-equipment": "Düzgün avadanlıq tapın",
+    "order": "Sifariş",
+    "stat": {
+      "1": "Tamamlanmış layihələr",
+      "2": "Avadanlıq dəstləri",
+      "3": "Mükafatlar qazandı",
+      "4": "Mövcud modellər"
+    },
+    "reviews": {
+      "say": "Müştərilərimiz nə deyir",
+      "testimonials": "Müştəri rəyləri",
+      "Aleksandr": "Əla sayt, geniş çeşidli ixtisaslaşdırılmış avadanlıq! Hər şey incəliklərə qədər düşünülüb: rahat naviqasiya, modelin detallı təsvirləri və menecerlərdən sürətli geri əlaqə.",
+      "Vladislav": "Əla xidmət və sürətli çatdırılma! Avadanlıq tam olaraq təsvirə uyğundur. Əməkdaşlıqdan məmnun qaldıq, yenə sifariş verməyi planlaşdırırıq.",
+      "Aleksey": "Şirkətlə birinci dəfə işləyirik. Həmişə dəqiq, etibarlı və əlavə gecikmələr olmadan. Avadanlıq uzun başqa və effektiv işləyir."
+    },
+    "trust-us": "Sənaye liderləri Bizə etibar edirlər",
+    "copyright": "Bütün hüquqlar qorunur.",
+    "read-more": "Daha ətraflı",
+    "industry_leaders": "Sənaye liderləri Biza etibar edirlər",
+    "phone": "Telefon",
+    "construction": {
+      "site": "Konstruksiya sağlayıcısı",
+      "equipment": "Konstruksiya avadanlıkları",
+      "works": "Tikinti işləri"
+    },
+    "partner": "Партнер",
+    "add": "Əlavə et"
+  },
+  "LanguageSwitcher": {
+    "flagAlt": "{language} bayrağı"
+  }
+}
