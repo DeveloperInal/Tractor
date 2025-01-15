@@ -2,7 +2,7 @@ services:
     nextjs:
       build:
         context: ./nikite-deploy/
-        dockerfile: /nikite deploy/Dockerfile
+        dockerfile: /nikite-deploy/Dockerfile
       container_name: nextjs
       ports:
         - "3000:3000"
